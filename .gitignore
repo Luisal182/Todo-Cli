@@ -1,0 +1,27 @@
+
+node_modules/
+database/*.db
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+# Coverage directory  and files
+coverage/
+# nyc test coverage
+.nyc_output
+# Environment variables
+.env
+.env.local
+# Operating System Files
+.DS_Store
+Thumbs.db
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+# Temporary files
+tmp/
+temp/

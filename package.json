@@ -1,0 +1,31 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node src/index.js --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luisal182/Todo-Cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luisal182/Todo-Cli/issues"
+  },
+  "homepage": "https://github.com/Luisal182/Todo-Cli#readme",
+  "description": "",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "inquirer": "^12.9.2",
+    "ora": "^5.4.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
