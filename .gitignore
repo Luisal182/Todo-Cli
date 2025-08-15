@@ -1,6 +1,10 @@
 
 node_modules/
+
+# Database files (but keep the sample one)
 database/*.db
+!database/todos.db
+
 *.log
 npm-debug.log*
 pids
