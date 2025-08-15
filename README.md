@@ -18,10 +18,22 @@ This project was developed with Node.js, SQLite, and modern CLI libraries, focus
 
 ### Technologies Used
 
-## Backend:
-- **Node.js**: Core runtime environment providing the foundation for the CLI application.
-- **SQLite**: Lightweight, serverless database for persistent storage of lists and tasks.
-- **Commander.js**: Professional library for parsing command-line arguments and creating intuitive CLI interfaces.
+- **Core Runtime**
+Node.js: JavaScript runtime environment for executing the CLI application.
+
+- **Database**
+sqlite3: Node.js SQLite3 bindings for database operations and data persistence.
+
+- **CLI Framework**
+commander: Complete solution for Node.js command-line interfaces with argument parsing.
+
+- **User Interface Libraries**
+ora 5.4.1: Elegant terminal spinners for loading states and process feedback.
+inquirer 8.2.6: Interactive command line prompts for user input and confirmations.
+
+- **Development Dependencies**
+nodemon: Development tool for automatic application restart during code changes.
+
 
 ## User Interface:
 - **Ora**: Provides elegant loading spinners and status indicators in the terminal.
