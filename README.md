@@ -34,22 +34,22 @@ This project was developed with Node.js, SQLite, and modern CLI libraries, focus
 
 **Create a new list:**
 ```bash
-node src/index.js --create MyList
+node src/index.js --create "MyList"
 ```
 
 **Add a task to a list:**
 ```bash
-node src/index.js --add "Buy groceries" --list MyList
+node src/index.js --add "Buy groceries" --list "MyList"
 ```
 
 **View all tasks in a list:**
 ```bash
-node src/index.js --show --list MyList
+node src/index.js --show --list "MyList"
 ```
 
 **Mark a task as completed (by name):**
 ```bash
-node src/index.js --done "Buy groceries" --list MyList
+node src/index.js --done "Buy groceries" --list "MyList"
 ```
 
 **Mark a task as completed (by ID):**
@@ -60,17 +60,22 @@ node src/index.js --done #01 --list MyList
 **Delete a specific task:**
 ```bash
 node src/index.js --delete #01 --list MyList
-node src/index.js --delete "Buy groceries" --list MyList
+node src/index.js --delete "Buy groceries" --list "MyList"
+```
+
+**See a full list,all task or articles**
+```bash
+node src/index.js --show --list "MyList"
 ```
 
 **Clear all completed tasks:**
 ```bash
-node src/index.js --clearAll --list MyList
+node src/index.js --clearAll --list "MyList"
 ```
 
 **Delete an entire list:**
 ```bash
-node src/index.js --deleteList --list MyList
+node src/index.js --deleteList --list "MyList"
 ```
 
 **Show help and available commands:**
@@ -133,12 +138,12 @@ The application uses SQLite with two main tables:
 
 ```bash
 # Create a shopping list
-node src/index.js --create Shopping
+node src/index.js --create "Shopping"
 
 # Add some items
-node src/index.js --add "Buy milk" --list Shopping
-node src/index.js --add "Buy bread" --list Shopping
-node src/index.js --add "Buy eggs" --list Shopping
+node src/index.js --add "Buy milk" --list "Shopping"
+node src/index.js --add "Buy bread" --list "Shopping"
+node src/index.js --add "Buy eggs" --list "Shopping"
 
 # View the complete list
 node src/index.js --show --list Shopping
@@ -147,10 +152,10 @@ node src/index.js --show --list Shopping
 node src/index.js --done #01 --list Shopping
 
 # Delete a specific item
-node src/index.js --delete "Buy bread" --list Shopping
+node src/index.js --delete "Buy bread" --list "Shopping"
 
 # Clear all completed tasks
-node src/index.js --clearAll --list Shopping
+node src/index.js --clearAll --list "Shopping"
 
 # Delete the entire list (with confirmation)
 node src/index.js --deleteList --list Shopping

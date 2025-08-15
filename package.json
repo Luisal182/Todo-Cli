@@ -21,7 +21,7 @@
   "description": "",
   "dependencies": {
     "commander": "^14.0.0",
-    "inquirer": "^12.9.2",
+    "inquirer": "^8.2.6",
     "ora": "^5.4.1",
     "sqlite3": "^5.1.7"
   },
